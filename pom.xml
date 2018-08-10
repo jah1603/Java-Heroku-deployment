@@ -24,6 +24,14 @@
                <configuration>
                    <source>1.8</source>
                    <target>1.8</target>
+                   <artifactItems>
+                            <artifactItem>
+                              <groupId>org.eclipse.jetty</groupId>
+                              <artifactId>jetty-runner</artifactId>
+                              <version>9.4.4.v20170414</version>
+                       <destFileName>jetty-runner.jar</destFileName>
+                            </artifactItem>
+                        </artifactItems>
                </configuration>
            </plugin>
            <plugin>
