@@ -5,6 +5,7 @@ import db.Seeds;
 import models.FootballTeam;
 import models.League;
 import spark.ModelAndView;
+import spark.Spark;
 import spark.template.velocity.VelocityTemplateEngine;
 
 import java.util.HashMap;
@@ -17,6 +18,12 @@ import static spark.SparkBase.staticFileLocation;
 
 public class MainController {
     public static void main(String[] args) {
+
+        // In order for this to work on Heroku, we need to allow Heroku to set the port number
+        final String portNumber = System.getenv("PORT");
+        if (portNumber != null) {
+            Spark.port(Integer.parseInt(portNumber));
+        }
 
         staticFileLocation("/public");
 
