@@ -58,7 +58,7 @@
                    </descriptorRefs>
                    <archive>
                        <manifest>
-                           <mainClass>Main</mainClass>
+                           <mainClass>com.codeclan.sportsProject.MainController</mainClass>
                        </manifest>
                    </archive>
                </configuration>
