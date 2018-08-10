@@ -45,7 +45,7 @@ public class Seeds {
         Manager manager10 = new Manager("Zach Fields", "07610335467", "Zsolt@hungarianmail.hu");
         DBHelper.save(manager10);
 
-        League league = new League("Northern Regional Division", LeagueType.NATIONAL, "United Kingdom");
+        League league = new League("Example League", LeagueType.NATIONAL, "United Kingdom");
         DBHelper.save(league);
 
         FootballTeam homefootballTeam = new FootballTeam("Selkirk Wanderers", manager, league, "/images/selkirk.png", "Selkirkshire Indoor Ground");
