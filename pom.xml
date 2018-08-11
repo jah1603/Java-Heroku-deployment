@@ -77,7 +77,7 @@
                    <appName>fixturepal</appName>
                    <processTypes>
                        <!-- Tell Heroku how to launch your application -->
-                       <web>java $JAVA_OPTS -cp target/classes:target/dependency/* MainController</web>
+                       <web>java -jar ./target/sportsProject-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
                    </processTypes>
                </configuration>
            </plugin>
