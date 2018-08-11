@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/dependency/jetty-runner.jar --port $PORT target/*.war
+java -jar ./target/SportsProject-1.0-SNAPSHOT-jar-with-dependencies.jar
