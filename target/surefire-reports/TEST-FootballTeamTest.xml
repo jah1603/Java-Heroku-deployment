@@ -63,11 +63,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+  <testcase classname="FootballTeamTest" name="canGetName" time="0"/>
+  <testcase classname="FootballTeamTest" name="canGetManager" time="0"/>
+  <testcase classname="FootballTeamTest" name="canGetLeague" time="0"/>
   <testcase classname="FootballTeamTest" name="canGetLogo" time="0"/>
   <testcase classname="FootballTeamTest" name="canGetLocation" time="0"/>
   <testcase classname="FootballTeamTest" name="canGetGoalsScored" time="0"/>
-  <testcase classname="FootballTeamTest" name="canGetManager" time="0"/>
-  <testcase classname="FootballTeamTest" name="canGetLeague" time="0"/>
-  <testcase classname="FootballTeamTest" name="canGetName" time="0"/>
   <testcase classname="FootballTeamTest" name="canGetGoalsConceded" time="0"/>
 </testsuite>

@@ -63,10 +63,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="ManagerTest" name="canUpdateEmailAddress" time="0.007"/>
-  <testcase classname="ManagerTest" name="hasPhoneNumber" time="0"/>
-  <testcase classname="ManagerTest" name="hasEmailAddress" time="0.001"/>
+  <testcase classname="ManagerTest" name="hasPhoneNumber" time="0.007"/>
+  <testcase classname="ManagerTest" name="hasEmailAddress" time="0"/>
   <testcase classname="ManagerTest" name="teamStartsNull" time="0.001"/>
-  <testcase classname="ManagerTest" name="canSetTeam" time="0"/>
-  <testcase classname="ManagerTest" name="canUpdatePhoneNumber" time="0.001"/>
+  <testcase classname="ManagerTest" name="canSetTeam" time="0.001"/>
+  <testcase classname="ManagerTest" name="canUpdatePhoneNumber" time="0"/>
+  <testcase classname="ManagerTest" name="canUpdateEmailAddress" time="0.001"/>
 </testsuite>

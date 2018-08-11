@@ -58,7 +58,7 @@
                    </descriptorRefs>
                    <archive>
                        <manifest>
-                           <mainClass>com.codeclan.sportsProject.MainController</mainClass>
+                           <mainClass>cfixturepal.MainController</mainClass>
                        </manifest>
                    </archive>
                </configuration>
