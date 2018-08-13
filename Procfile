@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.codeclan.sportsProject.MainController
+web: java -jar ./target/fixturepal-1.0-SNAPSHOT-jar-with-dependencies.jar
