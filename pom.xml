@@ -47,7 +47,7 @@
                    </descriptorRefs>
                    <archive>
                        <manifest>
-                           <mainClass>cfixturepal.MainController</mainClass>
+                           <mainClass>fixturepal.MainController</mainClass>
                        </manifest>
                    </archive>
                </configuration>

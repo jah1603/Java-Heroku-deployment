@@ -23,23 +23,12 @@
            <artifactId>maven-dependency-plugin</artifactId>
                <version>2.3</version>
                <executions>
-        <execution>
-            <phase>package</phase>
-            <goals><goal>copy</goal></goals>
-               <configuration>
-                   <source>1.8</source>
-                   <target>1.8</target>
-                   <artifactItems>
-                            <artifactItem>
-                              <groupId>org.eclipse.jetty</groupId>
-                              <artifactId>jetty-runner</artifactId>
-                              <version>9.4.4.v20170414</version>
-                       <destFileName>jetty-runner.jar</destFileName>
-                            </artifactItem>
-                        </artifactItems>
-               </configuration>
-             </execution>
- </executions>
+                   <execution>
+                       <id>copy-dependencies</id>
+                       <phase>package</phase>
+                       <goals><goal>copy-dependencies</goal></goals>
+                   </execution>
+               </executions>
            </plugin>
            <plugin>
                <artifactId>maven-assembly-plugin</artifactId>
