@@ -75,8 +75,8 @@ public class Seeds {
         FootballTeam ninethfootballTeam = new FootballTeam("City of Inverness", manager9, league, "/images/inverness.png", "Ness Walk Stadium, Inverness");
         DBHelper.save(ninethfootballTeam);
 
-        FootballTeam tenthfootballTeam = new FootballTeam("Grampian Rovers", manager10, league, "/images/speyside.png", "Speyside Fishing Stadium, Aberlour");
-        DBHelper.save(tenthfootballTeam);
+//        FootballTeam tenthfootballTeam = new FootballTeam("Grampian Rovers", manager10, league, "/images/speyside.png", "Speyside Fishing Stadium, Aberlour");
+//        DBHelper.save(tenthfootballTeam);
 
         League league2 = new League("Highland Schools Hockey Championship", LeagueType.SCHOOLS, "Highlands and Islands");
 
@@ -90,7 +90,7 @@ public class Seeds {
         league.addToTeams(seventhfootballTeam);
         league.addToTeams(eighthfootballTeam);
         league.addToTeams(ninethfootballTeam);
-        league.addToTeams(tenthfootballTeam);
+//        league.addToTeams(tenthfootballTeam);
 
 
         league.generateFixtures(true);

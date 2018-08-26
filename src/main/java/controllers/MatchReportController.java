@@ -137,7 +137,7 @@ public class MatchReportController {
 
             fixture.setMatch(fixture.getMatch()-1);
 
-            res.redirect("/fixtures");
+            res.redirect("/matchreports");
             return null;
         }, velocityTemplateEngine);
 

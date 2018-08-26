@@ -2,7 +2,7 @@
 #foreach($matchreport in $matchreports)
         <table class="center" align="center">
         <tr>
-            <th><a href="/matchreports/$matchreport.getId()">Week $matchreport.getFixture().getWeek(), Match $matchreport.getFixture().getMatch() - $matchreport.getHeadline()</a></th>
+            <th><a href="/matchreports/$matchreport.getId()">W$matchreport.getFixture().getWeek(), M$matchreport.getFixture().getMatch(): $matchreport.getFixture().returnHomeTeam().getName() $matchreport.getFixture().getHomeGoals() - $matchreport.getFixture().getHomeGoals() $matchreport.getFixture().returnAwayTeam().getName() -- $matchreport.getHeadline()</a></th>
         </tr>
 
         <tr>
