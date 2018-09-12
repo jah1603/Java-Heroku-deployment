@@ -1,1 +1,1 @@
-web: java -jar -cp target/classes:target/dependency/* MainController
+web: java -jar -cp target/classes/controllers/MainController
